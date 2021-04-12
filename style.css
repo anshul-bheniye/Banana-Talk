@@ -1,1 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+:root {
+	--primary-color: #fbbf24;
+	--secondary-color: #9acd32;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+	margin-top: 150px;
+	margin-left: 20px;
+}
+
+/* image */
+html {
+	background: url(img/minion-footer.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	color: var(--primary-color);
+}
+
+.outcome-heading {
+	color: var(--primary-color);
+	font-size: 25px;
+}
+
+/* textbox */
+#textArea {
+	font-family: 'Indie Flower', cursive;
+	font-size: larger;
+	background: transparent;
+	border: 3px dashed cyan;
+	color: var(--secondary-color);
+}
+
+/* button */
+#tapme:hover {
+	font-family: 'Indie Flower', cursive;
+	background-color: var(--primary-color);
+}
+
+#tapme {
+	font-family: 'Indie Flower', cursive;
+	transition-duration: 0.5s;
+	cursor: grab;
+	font-size: 18px;
+	border: none;
+	border-radius: 50%;
+}
+
+/* output div */
+div #output {
+	font-size: larger;
+	border: 3px dashed cyan;
+	height: 96px;
+	width: 293px;
+	display: block;
+	color: var(--secondary-color);
+}
