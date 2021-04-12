@@ -61,3 +61,13 @@ div #output {
 	display: block;
 	color: var(--secondary-color);
 }
+
+p {
+	padding-top: 60px;
+	text-align: right;
+	color: var(--secondary-color);
+}
+
+p a {
+	color: var(--primary-color);
+}
